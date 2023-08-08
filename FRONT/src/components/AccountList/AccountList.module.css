@@ -1,0 +1,33 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-left: 8%;
+  margin-top: 2rem;
+}
+
+.paginationButton,
+.accountButton {
+  background-color: #31cc31;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  flex-basis: calc(30% - 15px);
+  box-sizing: border-box;
+  height: 8rem;
+  box-shadow: 17px 11px 11px -7px rgba(207, 207, 207, 0.75);
+  -webkit-box-shadow: 17px 11px 11px -7px rgba(207, 207, 207, 0.75);
+  -moz-box-shadow: 17px 11px 11px -7px rgba(207, 207, 207, 0.75);
+}
+
+.accountButton:hover,
+.paginationButton:hover {
+  background-color: grey;
+  transform: translate(-12px, -8px);
+  -webkit-transform: translate(-12px, -8px);
+  -moz-transform: translate(-12px, -8px);
+}
