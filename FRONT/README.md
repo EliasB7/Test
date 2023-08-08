@@ -31,6 +31,7 @@
 
 `npm test`
 
+en caso de que los test no encuentre los archivos, presione tecla A cuando termine el proceso de busqueda en el menu de controles del propio `NPM TEST`
 
 ----------------------------------------------------------------------
 `FRONTEND`
