@@ -1,34 +1,68 @@
-## Visión General
+----------------------------------------------------------------------
+`FRONTEND`
+----------------------------------------------------------------------
+## Requisitos Previos
 
-El Proyecto es una plataforma que recopila información de una API externa y la presenta a los usuarios a través de una interfaz frontend. El backend se encarga de obtener los datos de la API y los envía al frontend para su visualización.
+- Node.js y npm instalados en tu sistema.
+- Ajusta la resolución de tu navegador a 1024x768 para visualizar correctamente la parte frontend activando la "divice toolbar".
+  
+----------------------------------------------------------------------
+## Instalación
 
-## Estructura
+1. Clona este repositorio.
+2. Navega hasta la carpeta `FRONT` del proyecto usando tu terminal.
+3. Ejecuta el siguiente comando para instalar las dependencias:
 
-El proyecto se divide en dos componentes principales:
+`npm install`
 
-- **Backend**: El backend es la columna vertebral del proyecto, proporcionando servicios y datos a través de API. Utiliza Node.js y está configurado para ejecutarse en el puerto definido en el archivo `.env`.
+----------------------------------------------------------------------
+## Ejecución
 
-- **Frontend**: El frontend es la parte visual de la aplicación y permite a los usuarios interactuar con la plataforma. Está desarrollado utilizando `REACT` y debe ejecutarse en una resolución de `1024x768` para una experiencia óptima.
+1. En la carpeta `FRONT`, ejecuta el siguiente comando para iniciar la aplicación:
+   
+`npm start`
 
-## Configuración
+2. Abre tu navegador web y asegúrate de que la resolución esté ajustada a 1024x768 para una visualización óptima.
+----------------------------------------------------------------------
+## Pruebas
 
-Antes de comenzar, asegúrate de tener Node.js y npm instalados en tu sistema. Para configurar el proyecto, sigue las instrucciones detalladas en los README de las carpetas `BACK` y `FRONT`.
+1. Asegúrate de tener las dependencias instaladas ejecutando `npm install`.
+2. Ejecuta las pruebas con el siguiente comando en la carpeta raíz "__test__":
+
+`npm test`
+
+
+----------------------------------------------------------------------
+`FRONTEND`
+----------------------------------------------------------------------
+## Prerequisites
+
+- Node.js and npm installed on your system.
+- Adjust the resolution of your browser to 1024x768 to properly view the frontend by activating the "device toolbar".
+----------------------------------------------------------------------
+## Installation
+
+1. Clone this repository to your local machine.
+2. Navigate to the `FRONT` folder of the project using your terminal.
+3. Run the following command to install dependencies:
+
+`npm install`
 
 ----------------------------------------------------------------------
 
-## Overview
+## Execution
 
-The Project is a platform that gathers information from an external API and presents it to users through a frontend interface. The backend is responsible for fetching data from the API and sending it to the frontend for display.
+1. In the `FRONT` folder, run the following command to start the application:
 
-## Structure
-The project is divided into two main components:
+`npm start`
 
-- **Backend**: The backend serves as the backbone of the project, providing services and data through APIs. It utilizes Node.js and is configured to run on the port defined in the `.env` file.
+2. Open your web browser and ensure that the resolution is set to 1024x768 for optimal viewing using the "device toolbar".
+----------------------------------------------------------------------
+## Testing
 
-- **Frontend**: The frontend is the visual part of the application, allowing users to interact with the platform. It's developed using `REACT` and should be run at a resolution of `1024x768` for an optimal experience.
+1. Make sure you have the dependencies installed by running `npm install`.
+2. Run tests with the following command in the "__test__" root folder:
 
-## Configuration
-
-Before you begin, make sure you have Node.js and npm installed on your system. To set up the project, follow the detailed instructions in the READMEs of the `BACK` and `FRONT` folders.
+`npm test`
 
 ----------------------------------------------------------------------
